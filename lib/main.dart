@@ -1,18 +1,15 @@
 import 'package:ass2flutter/drawerwidget%20.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:ass2flutter/MyDrawerList.dart';
 import 'dart:ui';
-
-import 'MyHomeDrawer.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: chooise(),
+    home: Orientated(),
   ));
 }
 
-class chooise extends StatelessWidget {
+class Orientated extends StatelessWidget {
 // if betwwen screen_1 or screen_2
   @override
   Widget build(BuildContext context) {
