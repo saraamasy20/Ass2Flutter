@@ -1,0 +1,42 @@
+class HomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return Scaffold(
+      backgroundColor: Color.fromARGB(255, 219, 102, 102),
+      drawer: Drawer(
+        backgroundColor: Color.fromARGB(127, 255, 255, 255),
+        child: Column(children: [
+          Padding(padding: EdgeInsets.all(5)),
+          drawerwidget(
+            title: ("FIRST ELEMENT"),
+          ),
+          SizedBox(height: 5),
+          drawerwidget(
+            title: ("SECOND ELEMENT"),
+          ),
+          SizedBox(height: 5),
+          drawerwidget(
+            title: ("THIRD ELEMENT"),
+          ),
+          SizedBox(height: 5),
+          drawerwidget(
+            title: ("FORTH ELEMENT"),
+          ),
+          SizedBox(height: 5),
+          drawerwidget(
+            title: ("FIFTHE ELEMENT"),
+          ),
+          SizedBox(height: 5),
+        ]),
+      ),
+      appBar: AppBar(
+        title: new Text(('SECOND ASSIGNMENT'), textAlign: TextAlign.left),
+        backgroundColor: Color.fromARGB(255, 156, 12, 212),
+      ),
+
+      
+      );
+      
+    
+  }
